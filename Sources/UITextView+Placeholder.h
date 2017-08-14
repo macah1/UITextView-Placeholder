@@ -34,5 +34,6 @@ FOUNDATION_EXPORT const unsigned char UITextView_PlaceholderVersionString[];
 @property (nonatomic, strong) IBInspectable UIColor *placeholderColor;
 
 + (UIColor *)defaultPlaceholderColor;
+- (void)updatePlaceholderLabel;
 
 @end
